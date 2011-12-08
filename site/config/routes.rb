@@ -1,4 +1,11 @@
 Site::Application.routes.draw do
+  match 'pages/home' => "pages#home"
+  match 'pages/method' => "pages#method"
+  match 'pages/about' => "pages#about"
+  match 'pages/jobs' => "pages#jobs"
+  match 'pages/contact' => "pages#contact"
+  resources :pages
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +55,7 @@ Site::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  # root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 

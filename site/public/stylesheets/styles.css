@@ -1,0 +1,78 @@
+html, body {height:100%; margin:0; padding:0;}
+#page-background {position:fixed; top:0; left:0; width:100%; height:100%;}
+#header{height: 100px; width:300px;}
+#content {
+position:relative; z-index:1; padding:10px;
+}
+h1{
+	font: bold "Lucida Grande", "Lucida Sans Unicode", arial, serif;
+	margin: 0;
+	font-size: 3em;
+	color: #ac0809;
+	font-weight: normal;
+	font-style: normal;
+	position: relative:
+	left: 40px;
+}
+hr {
+	position:relative;
+	left: -20px;
+	color: #2e2e2e;
+}
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+float: left;
+margin: 0 0.15em;
+}
+
+#nav-menu li a
+{
+height: 2em;
+line-height: 2em;
+float: left;
+width: 7em;
+padding-left: 14px;
+padding-right: 14px;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight:bold;
+font-size: 22px;
+color: #2e2e2e;
+text-decoration: none;
+text-align: center;
+}
+
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none
+}
+/* End hide */
+
+#nav-menu
+{
+	width:50em;
+	position:relative;
+	margin-right:auto;
+	left: 455px;
+	top: -60px;
+} 
+#text1 {
+	position:absolute;
+	top: 150px;
+	left:-375px;
+	font:23px "BebasNeueRegular", Arial, Helvetica, sans-serif;
+}
+#text2 {
+	position:absolute;
+	top: 260px;
+	left:310px;
+	color: #ffffff;
+	font:23px "BebasNeueRegular", Arial, Helvetica, sans-serif;
+}
