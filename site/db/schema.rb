@@ -22,4 +22,9 @@ ActiveRecord::Schema.define(:version => 20111208024828) do
     t.datetime "updated_at"
   end
 
+  create_table "templates", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
 end
